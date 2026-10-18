@@ -1,0 +1,28 @@
+{
+  "id": "claude-like",
+  "name": "Claude-like UI",
+  "version": "0.1.0",
+  "description": "Interfaccia ispirata a Claude + pannelli Skills, MCP e Plugin + selettore Files/Git",
+  "settings": [
+    {
+      "key": "defaultMode",
+      "type": "enum",
+      "title": "Modalità predefinita",
+      "options": ["files", "git", "both"],
+      "default": "files"
+    },
+    {
+      "key": "showSidebar",
+      "type": "boolean",
+      "title": "Mostra sidebar extra",
+      "default": true
+    },
+    {
+      "key": "theme",
+      "type": "enum",
+      "title": "Stile",
+      "options": ["claude", "minimal"],
+      "default": "claude"
+    }
+  ]
+}
